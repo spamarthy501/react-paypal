@@ -1,77 +1,70 @@
-# react-paypal
+# Getting Started with Create React App
 
-Introduction:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-I am excited to propose a comprehensive project that involves the development of
-an e-commerce website utilizing React.js and incorporating seamless PayPal
-payment integration. This project not only aligns with my academic interests but
-also represents a real-world application of modern web development technologies.
+## Available Scripts
 
-General Description:
+In the project directory, you can run:
 
-The objective is to create a robust and user-friendly e-commerce platform that
-facilitates online transactions through the integration of the PayPal payment
-system. The website will include essential features such as product browsing,
-shopping cart management, and secure payment processing. By leveraging React.js,
-we aim to build an interactive and responsive user interface, ensuring an optimal
-user experience.
+### `npm start`
 
-Motivation:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The motivation behind this project stems from the evolving landscape of
-e-commerce and the increasing reliance on online platforms for shopping. I am
-eager to delve into the complexities of web development, particularly focusing on
-the challenges associated with creating a feature-rich and secure e-commerce
-website. This project will serve as a practical application of my academic knowledge
-and a stepping stone towards a career in web development.
-The impact of this project extends beyond academic fulfillment. It is an opportunity
-for personal and professional growth, allowing me to enhance my skills in frontend
-website development and payment gateway implementation. Moreover, the
-completed project will serve as a tangible representation of my abilities and
-proficiency in the field.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Timeline and Milestones
+### `npm test`
 
-I. Week 1-2: Project Proposal, Planning and Research
-Prepare Project proposal document, define project scope and requirements
-Research best practices and implementation for React.js and PayPal integration
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-II. Week 3-4: Setup React.js and styling libraries
-Set up the React.js environment
-Adding Styling libraries or frameworks
-Codebase setup and github integration
+### `npm run build`
 
-III. Week 5-6: Developing Website navigation and Routes
-Develop the website's user interface and navigation, Headers and footers
-Adding multiple routes for navigating to different category pages
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-IV. Week 7-8: Developing Web Pages
-Adding the products data for home page
-Adding sample data for navigation, header and footers
-Adding Products data for different category pages
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-V. Week 9-10: Javascript and React.js Development
-Developing Javascript and React.js functionality to the website
-Ability to add all the products to shopping cart
-Develop the product checkout page for final payment
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-VI. Week 11-12: PayPal Integration, Testing and Debugging
-Integrate PayPal payment processing functionality
-Conduct thorough testing of payment transactions
-Address any bugs or issues identified during testing
+### `npm run eject`
 
-VII. Week 13: Documentation and Finalization
-Documentation and finalizing the project for submission and presentation
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Expected Outcome
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Upon completion of this project, I anticipate having a fully functional e-commerce
-website with a polished and intuitive user interface, Robust Functionality,
-Responsive Design and Paypal Payment integration. The website should seamlessly
-integrate with the PayPal payment system, allowing users to make secure and
-hassle-free transactions. Users should be able to seamlessly navigate the platform,
-add products to their cart, and complete secure transactions through the
-integrated PayPal payment system. Additionally, I aim to gain a deeper
-understanding of React.js, payment gateway integration and improve my overall
-proficiency in web development.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

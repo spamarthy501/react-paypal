@@ -1,8 +1,7 @@
-import './App.css';
-
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
+import RegisterPage from './RegisterPage';
 import AllProductsPage from './AllProductsPage';
 import BabycarePage from './BabycarePage';
 import SkincarePage from './SkincarePage';
@@ -31,6 +30,10 @@ function App() {
 
           <Route path="/login">
             <LoginPage />
+          </Route>
+
+          <Route path="/register">
+            <RegisterPage />
           </Route>
 
           <Route path="/allproducts">

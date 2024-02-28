@@ -10,6 +10,8 @@ import {
 
 import { users } from "./Redux/userDetails"
 
+import Header from './Header';
+import Footer from './Footer';
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
 import RegisterPage from './RegisterPage';
@@ -67,10 +69,23 @@ import CheckoutPage from './CheckoutPage';
 const usersJsonString = JSON.stringify(users);
 localStorage.setItem('users', usersJsonString);
 
+function Layout() {
+  return (
+    <div>
+      <Header />
+      <main>
+        {/* <Outlet /> */}
+        <HomePage />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
 const router = createBrowserRouter(
     createRoutesFromElements(
       <>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Layout />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/allproducts" element={<AllProductsPage />} />

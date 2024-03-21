@@ -13,7 +13,7 @@ const index = () => {
                 <p className='border-b-2 font-bold text-lg inline pb-1 border-primary'>Reach us</p>
                 <div class="flex gap-4 mt-4">
                     <EnvelopeIcon className="h-6 w-6 text-primary" />
-                    <p>Contact@saigaze.com</p>
+                    <p>contact@saigaze.com</p>
                 </div>
                 <div class="flex gap-4 mt-4">
                     <DevicePhoneMobileIcon className="h-6 w-6 text-primary" />

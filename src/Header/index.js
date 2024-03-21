@@ -77,7 +77,7 @@ const Header = () => {
                     {links.map(link => (
                         <li
                             key={link}
-                            className={`text-primary cursor-pointer font-medium ${activeLink === link ? 'border-b-2 border-primary font-bold text-[#154b25e6]' : ''}`}
+                            className={`text-primary cursor-pointer font-medium ${activeLink === link ? 'border-b-2 border-primary font-bold text-[#154b25e6]' : '/'}`}
                             onClick={() => { setActiveLink(link); scrollToSection(link) }}
                         >
                             {link}

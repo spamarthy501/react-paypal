@@ -1,6 +1,6 @@
 import React from 'react';
 import HomeBanner from "./HomeBanner";
-// import Products from "./Products";
+import Products from "./Products";
 import Promotion from "./Promotion";
 import BeautyBlog from './BeautyBlog';
 import AboutUs from './AboutUs';
@@ -10,7 +10,7 @@ function HomePage() {
     return (
         <div>
             <HomeBanner />
-            {/* <Products /> */}
+            <Products />
             <Promotion />
             <BeautyBlog />
             <AboutUs />

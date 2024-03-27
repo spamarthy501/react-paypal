@@ -15,11 +15,12 @@ import Footer from './Footer';
 import HomePage from './Homepage';
 import LoginPage from './LoginPage';
 import RegisterPage from './RegisterPage';
-import AllProductsPage from './AllProductsPage';
-import BabycarePage from './BabycarePage';
-import SkincarePage from './SkincarePage';
+import CategoryPage from "./CategoryPage";
+// import AllProductsPage from './AllProductsPage';
+// import BabycarePage from './BabycarePage';
+// import SkincarePage from './SkincarePage';
 // import ShoppingCart from './ShoppingCart';
-import CheckoutPage from './CheckoutPage';
+// import CheckoutPage from './CheckoutPage';
 
 const usersJsonString = JSON.stringify(users);
 localStorage.setItem('users', usersJsonString);
@@ -42,10 +43,10 @@ const router = createBrowserRouter(
             <Route index element={<HomePage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/allproducts" element={<AllProductsPage />} />
-            <Route path="/babycare" element={<BabycarePage />} />
+            <Route path="product/category/:id" element={<CategoryPage />} />
+            {/* <Route path="/babycare" element={<BabycarePage />} />
             <Route path="/skincare" element={<SkincarePage />} />
-            <Route path="/checkout" element={<CheckoutPage />} />
+            <Route path="/checkout" element={<CheckoutPage />} /> */}
         </Route>
     )
 );

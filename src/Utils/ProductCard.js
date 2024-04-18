@@ -2,14 +2,13 @@ import React from 'react';
 import { PlusCircleIcon } from '@heroicons/react/24/solid';
 import ProductsData from '../Redux/productsData';
 import { useDispatch } from 'react-redux';
-// import { addProduct } from '../../Redux/features/addToCartSlice';
+import { addProduct } from '../Redux/Reducers/addToCartSlice';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { Card, message } from 'antd';
 import ViewAllCard from './ViewAllCard';
 const { Meta } = Card;
 
 const ProductCard = ({ type }) => {
-    console.log({ type });
     const dispatch = useDispatch();
     const [messageApi, contextHolder] = message.useMessage();
 
@@ -50,7 +49,7 @@ const ProductCard = ({ type }) => {
                             <div className='flex justify-between items-center mt-2'>
                                 <p>{`$${product.price}`}</p>
                                 <PlusCircleIcon className="h-6 w-6 text-primary cursor-pointer" onClick={() => {
-                                    // dispatch(addProduct({ ...product, quantity: 1 }));
+                                    dispatch(addProduct({ ...product, quantity: 1 }));
                                     success(); // Call the success function after dispatching the action
                                 }} />
                             </div>

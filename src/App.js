@@ -16,11 +16,8 @@ import HomePage from './Homepage';
 import LoginPage from './LoginPage';
 import RegisterPage from './RegisterPage';
 import CategoryPage from "./CategoryPage";
-// import AllProductsPage from './AllProductsPage';
-// import BabycarePage from './BabycarePage';
-// import SkincarePage from './SkincarePage';
-// import ShoppingCart from './ShoppingCart';
-// import CheckoutPage from './CheckoutPage';
+import ProductPage from "./ProductPage";
+import Cart from './Cart';
 
 const usersJsonString = JSON.stringify(users);
 localStorage.setItem('users', usersJsonString);
@@ -41,12 +38,11 @@ const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
+            <Route path="/cart" element={<Cart />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="product/category/:id" element={<CategoryPage />} />
-            {/* <Route path="/babycare" element={<BabycarePage />} />
-            <Route path="/skincare" element={<SkincarePage />} />
-            <Route path="/checkout" element={<CheckoutPage />} /> */}
+            <Route path="/product/category/:id" element={<CategoryPage />} />
+            <Route path="/product/:id" element={<ProductPage />} />
         </Route>
     )
 );

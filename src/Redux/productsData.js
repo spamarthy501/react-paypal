@@ -31,7 +31,7 @@ const productsData = {
     "hair care": [
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Virgin skin",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: hair1,
@@ -40,7 +40,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Neem Cream",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: hair2,
@@ -49,7 +49,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Aloe Cream",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: hair3,
@@ -58,7 +58,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Light Cream",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: hair4,
@@ -67,7 +67,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Sun Cream",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: hair5,
@@ -76,7 +76,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Night Cream",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: hair6,
@@ -85,7 +85,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Dry Cream",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: all6,
@@ -94,7 +94,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Olay",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: all5,
@@ -105,7 +105,7 @@ const productsData = {
     "skin care": [
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Ordinary Cream",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: sc1,
@@ -114,7 +114,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Face Cream",
+            name: "Ordinary Serum",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 32,
             image: sc2,
@@ -123,7 +123,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Ordinary Cream Plus",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: sc3,
@@ -132,7 +132,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Small Eye Cream",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: sc4,
@@ -152,7 +152,7 @@ const productsData = {
     },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Rose Sql",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: oil3,
@@ -161,7 +161,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Aromatica",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: oil4,
@@ -199,7 +199,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Flore",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: all4,
@@ -208,7 +208,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Face Cream",
+            name: "Regenesrit",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 32,
             image: all5,
@@ -217,7 +217,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Cellumoist",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: all6,
@@ -226,7 +226,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Face Cream",
+            name: "Baby serum",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 32,
             image: all7,
@@ -237,7 +237,7 @@ const productsData = {
     "oils": [
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Organic asran",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: oil1,
@@ -246,7 +246,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Beauty Palm",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: oil2,
@@ -255,7 +255,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Vegan Formula",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: oil3,
@@ -264,7 +264,7 @@ const productsData = {
         },
         {
             id: uuidv4(),
-            name: "Eye Cream",
+            name: "Aro Lite",
             describe: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Tempore odio nostrum dicta impedit minima nemo quia distinctio aliquam vero ipsam ut quisquam saepe unde maiores, sequi est? Sed, quaerat quisquam?",
             price: 13,
             image: oil4,

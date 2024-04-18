@@ -19,6 +19,13 @@ const Header = () => {
 
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
+
+        if (section === 'Home') {
+            const offsetTop = section.offsetTop; // Adjusted to subtract 20 pixels
+            window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+            return;
+        }
+
         if (section) {
             const offsetTop = section.offsetTop - 100; // Adjusted to subtract 20 pixels
             window.scrollTo({ top: offsetTop, behavior: 'smooth' });
@@ -64,7 +71,6 @@ const Header = () => {
         )
     }
 
-
     return (
         <header className='px-16 py-4 flex flex-row justify-between items-center shadow-sm top-0 z-[1000] w-full fixed bg-white'>
             <div className='basis-72'>
@@ -87,7 +93,7 @@ const Header = () => {
                     <Link to="/login" className={`text-primary cursor-pointer font-medium`} >
                         {user.name ? <Logout user={user} /> : "Login"}
                     </Link>
-                    <CartIcon />
+                    {user.name ? <CartIcon /> : <></>}
                 </ul>
             </div>
         </header >
